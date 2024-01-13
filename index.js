@@ -121,7 +121,7 @@ const createPost = async () => {
 };
 
 
-const cronInsta = new CronJob("* 10 * * *", async () => {
+const cronInsta = new CronJob("0 10 * * *", async () => {
     postToInsta();
 });
 
