@@ -1,0 +1,25 @@
+{
+  "name": "insta-bot",
+  "version": "1.0.0",
+  "description": "Instagram Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "JayashRSY",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "canvas": "^2.11.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cron": "^3.1.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "html2canvas": "^1.4.1",
+    "instagram-private-api": "^1.45.3",
+    "puppeteer": "^21.7.0",
+    "request-promise": "^4.2.6"
+  }
+}

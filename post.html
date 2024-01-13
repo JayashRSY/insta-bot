@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #post-bg {
+            height: 100vh;
+            width: 150vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url("https://source.unsplash.com/random/1080x1080?galaxy");
+            background-size: cover;
+            background-position: center;
+        }
+
+        #tweet-container {
+            display: flex;
+            align-items: flex-start;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 500px;
+            padding: 20px;
+            margin: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+
+        #profile-pic {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin-right: 10px;
+            margin-top: 15px;
+            object-fit: cover;
+        }
+
+        #tweet-content {
+            flex: 1;
+        }
+
+        #post-text {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        #post-description {
+            font-size: 16px;
+            font-style: italic;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body id="background-container">
+    <div id="post-bg">
+        <div id="tweet-container">
+            <img id="profile-pic"
+                src="https://pbs.twimg.com/profile_images/1746152780962885633/UzfWpgdS_400x400.jpg"
+                alt="Profile Picture">
+            <div id="tweet-content">
+                <h1 id="post-text">Your Tweet Goes Here. It can be a bit longer as well. Tweet tweet!</h1>
+                <p id="post-description">@the_void_sage</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
