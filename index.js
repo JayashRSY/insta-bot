@@ -9,7 +9,6 @@ const html2canvas = require('html2canvas');
 const { createCanvas } = require('canvas');
 const puppeteer = require('puppeteer');
 const fs = require('fs');
-const cheerio = require('cheerio');
 
 const app = express()
 app.get('/', (req, res) => {
