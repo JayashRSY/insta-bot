@@ -16,6 +16,7 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
 app.get('/create', (req, res) => {
+    postToInsta();
     res.send(`Image posted! 🚀`);
 });
 const port = process.env.PORT || 4000;
