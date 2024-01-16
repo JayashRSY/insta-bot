@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "./index.js",
+            "src": "index.js",
             "use": "@vercel/node"
         }
     ],
@@ -10,12 +10,6 @@
         {
             "src": "/(.*)",
             "dest": "index.js"
-        }
-    ],
-    "crons": [
-        {
-            "path": "/create",
-            "schedule": "0 */4 * * *"
         }
     ]
 }
